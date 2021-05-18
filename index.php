@@ -10,6 +10,7 @@ $duree="On s'endort facilement";
 $afficheLink="https://p7.storage.canalblog.com/77/98/1349409/105761364.jpg";
 $copyrights="Table2 4 Ever!";
 
+
 $films=array(
     array('titre'=>"Forrest Gump",'annee'=>"2015",'pitch'=>"Quelques décennies d'histoire américaine, des années 1940 à la fin du XXème siècle, à travers le regard et l'étrange odyssée d'un homme simple et pur, Forrest Gump."),
     array('titre'=>"La Liste de Schindler",'annee'=>"2019",'pitch'=>"Evocation des années de guerre d'Oskar Schindler, industriel autrichien rentré à Cracovie en 1939 avec les troupes allemandes. Il va, tout au long de la guerre, protéger des juifs en les faisant travailler dans sa fabrique. "),
@@ -35,7 +36,11 @@ array_push($films,[
     'pitch' => "Lorsque de mystérieux vaisseaux venus du fond de l'espace surgissent un peu partout sur Terre, une équipe d'experts est rassemblée sous la direction de la linguiste Louise Banks afin de tenter de comprendre leurs intentions. Face à l'énigme que constituent leur présence et leurs messages mystérieux, les réactions dans le monde sont extrêmes et l'humanité se retrouve bientôt au bord d'une guerre absolue. Louise Banks et son équipe n'ont que très peu de temps pour trouver des réponses.",
 ] );
 
-//var_dump($films);
+
+$films[0]['realisateurs']=array(array('nom'=>"toto", 'prenom'=>"ghj"),array('nom'=>"tata", 'prenom'=>"klm"));
+
+var_dump($films[0]);
+
 $categories = array(
     "Action", "Dramatique", "Comédie", "Fantastique", "Horreur", "Science-Fiction", "Polar", "Thriller", "Historique", "Policier"
 );
