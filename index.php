@@ -13,10 +13,10 @@ $copyrights="Table2 4 Ever!";
 $films=array(
     array('titre'=>"Forrest Gump",'annee'=>"2015",'pitch'=>"Quelques décennies d'histoire américaine, des années 1940 à la fin du XXème siècle, à travers le regard et l'étrange odyssée d'un homme simple et pur, Forrest Gump."),
     array('titre'=>"La Liste de Schindler",'annee'=>"2019",'pitch'=>"Evocation des années de guerre d'Oskar Schindler, industriel autrichien rentré à Cracovie en 1939 avec les troupes allemandes. Il va, tout au long de la guerre, protéger des juifs en les faisant travailler dans sa fabrique. "),
-    array('titre'=>"La Ligne verte",'annee'=>"????",'pitch'=>"Paul Edgecomb, Gardien-chef du pénitencier de Cold Mountain en 1935, était chargé de veiller au bon déroulement des exécutions capitales. Parmi les prisonniers se trouvait un colosse du nom de John Coffey... "),
+    array('titre'=>"La Ligne verte",'annee'=>"1999",'pitch'=>"Paul Edgecomb, Gardien-chef du pénitencier de Cold Mountain en 1935, était chargé de veiller au bon déroulement des exécutions capitales. Parmi les prisonniers se trouvait un colosse du nom de John Coffey... "),
     array('titre'=>"12 hommes en colère",'annee'=>"2007",'pitch'=>"Lors d'un procès, un juré émet l'hypothèse que l'homme qu'il doit juger n'est peut-être pas coupable. Il va tenter de convaincre les onze autres jurés. "),
     array('titre'=>"Le Parrain",'annee'=>"2013",'pitch'=>"En 1945, à New York, les Corleone sont une des cinq familles de la mafia. Don Vito Corleone marie sa fille à un bookmaker. Sollozzo, \"parrain\" de la famille Tattaglia, propose à Don Vito une association dans le trafic de drogue... "),
-    array('titre'=>"Les Evadés",'annee'=>"???",'pitch'=>"L'amitié d'un jeune banquier condamné à la prison à vie pour le meurtre de sa femme et d'un vétéran de la prison de Shawshank, le pénitencier le plus sévère de l'Etat du Maine"),
+    array('titre'=>"Les Evadés",'annee'=>"1994",'pitch'=>"L'amitié d'un jeune banquier condamné à la prison à vie pour le meurtre de sa femme et d'un vétéran de la prison de Shawshank, le pénitencier le plus sévère de l'Etat du Maine"),
 );
 
 array_push($films,[
